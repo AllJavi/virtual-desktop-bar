@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+f6e713aeb40f2db7afc502c2d93b32b6 CMakeFiles/fetch-translations
+20a6d7d32e22a7e3c64d6e641d5375de CMakeFiles/uninstall
+dbf9ed8cec0cadd4a91db0e7ab2d00aa CMakeFiles/virtualdesktopbar_autogen
+2a0df785b7994ca6e4d9c9af1808e781 org.kde.plasma.virtualdesktopbar-plasmoids-metadata.json
+72d004f6f45c4249602128598dcafcc5 releaseme

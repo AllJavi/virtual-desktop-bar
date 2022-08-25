@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+
+  <kcfgfile name=""/>
+
+  <group name="Preferences">
+
+    <!-- Behavior -->
+
+    <!-- Behavior - Empty desktops -->
+    <entry name="EmptyDesktopsRenameAs" type="String">
+      <default></default>
+    </entry>
+
+    <!-- Behavior - Adding desktops -->
+    <entry name="AddingDesktopsSwitchTo" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="AddingDesktopsPromptToRename" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="AddingDesktopsExecuteCommand" type="String">
+      <default></default>
+    </entry>
+
+    <!-- Behavior - Dynamic desktops -->
+    <entry name="DynamicDesktopsEnable" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <!-- Behavior - Multiple screens/monitors -->
+    <entry name="MultipleScreensFilterOccupiedDesktops" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- Behavior - Mouse wheel handling -->
+    <entry name="MouseWheelRemoveDesktopOnClick" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="MouseWheelSwitchDesktopOnScroll" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="MouseWheelInvertDesktopSwitchingDirection" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="MouseWheelWrapDesktopNavigationWhenScrolling" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <!-- Appearance -->
+
+    <!-- Appearance - Animations -->
+    <entry name="AnimationsEnable" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- Appearance - Tooltips -->
+    <entry name="TooltipsEnable" type="Bool">
+      <default>true</default>
+    </entry>
+
+    <!-- Appearance - Add desktop button -->
+    <entry name="AddDesktopButtonShow" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="AddDesktopButtonSize" type="Int">
+      <default>0</default>
+    </entry>
+
+    <!-- Appearance - Desktop buttons -->
+    <entry name="DesktopButtonsVerticalMargin" type="Int">
+      <default>3</default>
+    </entry>
+    <entry name="DesktopButtonsHorizontalMargin" type="Int">
+      <default>6</default>
+    </entry>
+    <entry name="DesktopButtonsSpacing" type="Int">
+      <default>3</default>
+    </entry>
+    <entry name="DesktopButtonsSetCommonSizeForAll" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopButtonsShowOnlyForCurrentDesktop" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopButtonsShowOnlyForOccupiedDesktops" type="Bool">
+      <default>false</default>
+    </entry>
+
+    <!-- Appearance - Desktop labels -->
+    <entry name="DesktopLabelsStyle" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="DesktopLabelsStyleCustomFormat" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopLabelsMaximumLength" type="Int">
+      <default>25</default>
+    </entry>
+    <entry name="DesktopLabelsCustomFont" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopLabelsCustomFontSize" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="DesktopLabelsCustomColor" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopLabelsDimForIdleDesktops" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="DesktopLabelsDisplayAsUppercased" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopLabelsBoldFontForCurrentDesktop" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopLabelsCustomIconSize" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="DesktopLabelsCustomIconPath" type="String">
+      <default></default>
+    </entry>
+
+    <!-- Appearance - Desktop indicators -->
+    <entry name="DesktopIndicatorsStyle" type="Int">
+      <default>0</default>
+    </entry>
+    <entry name="DesktopIndicatorsStyleBlockRadius" type="Int">
+      <default>2</default>
+    </entry>
+    <entry name="DesktopIndicatorsStyleLineThickness" type="Int">
+      <default>3</default>
+    </entry>
+    <entry name="DesktopIndicatorsInvertPosition" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopIndicatorsCustomColorForIdleDesktops" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopIndicatorsCustomColorForCurrentDesktop" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopIndicatorsCustomColorForOccupiedIdleDesktops" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopIndicatorsCustomColorForDesktopsNeedingAttention" type="String">
+      <default></default>
+    </entry>
+    <entry name="DesktopIndicatorsDoNotOverrideOpacityOfCustomColors" type="Bool">
+      <default>false</default>
+    </entry>
+    <entry name="DesktopIndicatorsDistinctForOccupiedIdleDesktops" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="DesktopIndicatorsDistinctForDesktopsNeedingAttention" type="Bool">
+      <default>false</default>
+    </entry>
+
+  </group>
+</kcfg>

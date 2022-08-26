@@ -36,7 +36,7 @@ Partial support also for vertical panels:
 
 Desktop icon configuration:
 
-![](screenshots/4.png)
+![](screenshots/5.gif)
 
 
 ## Installation
